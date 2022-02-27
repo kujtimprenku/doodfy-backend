@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Run Locally
+- Required php version **7.1.3** (Personaly used XAMPP - https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.1.30/) the .exe one.
+- Download database from this repo and make sure you can connect to it.
+- Create .env from .env.example and update with the DB credentials.
+- Install composer.
+- Run `composer update`
+- Run `npm install`
+- Run `php artisan optimize:clear`
+- Run `composer dump-autoload`
+- Run `php artisan key:generate`
+- Run `php artisan passport:keys`
+- If there's still issues ping me :)
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
